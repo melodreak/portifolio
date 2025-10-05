@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-import Paragrafo from "../Paragrafo";
-import Titulo from "../Titulo";
+import Paragrafo from '../Paragrafo'
+import Titulo from '../Titulo'
 
-import { Card, LinkBotao } from "./styles";
+import { Card, LinkBotao } from './styles'
 
 const Projeto = () => (
   <Card>
@@ -11,6 +11,6 @@ const Projeto = () => (
     <Paragrafo tipo="secundario">Lista de tarefas feita com VueJS</Paragrafo>
     <LinkBotao>Visualizar</LinkBotao>
   </Card>
-);
+)
 
-export default Projeto;
+export default Projeto

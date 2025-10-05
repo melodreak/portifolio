@@ -1,8 +1,8 @@
-import Projetos from "./containers/Projetos";
-import Sidebar from "./containers/Sidebar";
-import Sobre from "./containers/Sobre";
-import EstiloGlobal, { Container } from "./styles";
-import { GithubSecao } from "./containers/Sobre/styles";
+import Projetos from './containers/Projetos'
+import Sidebar from './containers/Sidebar'
+import Sobre from './containers/Sobre'
+import EstiloGlobal, { Container } from './styles'
+import { GithubSecao } from './containers/Sobre/styles'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         </main>
       </Container>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
