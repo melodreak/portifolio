@@ -4,7 +4,12 @@ import Paragrafo from '../../components/Paragrafo'
 
 import { Descricao, BotaoTema, SidebarContainer } from './styles'
 
-const Sidebar = () => (
+type Props = {
+  estaUsandoTemaDark: boolean
+  trocarTema: () => void
+}
+
+const Sidebar = ({ estaUsandoTemaDark, trocarTema }: Props) => (
   <aside>
     <SidebarContainer>
       <Avatar />
@@ -15,7 +20,9 @@ const Sidebar = () => (
       <Descricao tipo="principal" fontSize={12}>
         Aluno de FullStack
       </Descricao>
-      <BotaoTema>Trocar Tema</BotaoTema>
+      <BotaoTema onClick={trocarTema}>
+        {estaUsandoTemaDark ? 'Tema claro' : 'Tema escuro'}
+      </BotaoTema>
     </SidebarContainer>
   </aside>
 )
