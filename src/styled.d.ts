@@ -6,6 +6,7 @@ declare module 'styled-components' {
     corSecundaria: string
     corDeFundo: string
     corDeFundoBotao: string
+    corDeFundoBotaoHover: string
     corDaBorda: string
   }
 }

@@ -3,6 +3,7 @@ const TemaDark = {
   corSecundaria: '#eee',
   corDeFundo: '#282a35',
   corDeFundoBotao: '#fff',
+  corDeFundoBotaoHover: '#e6e6e6',
   corDaBorda: '#c1c1c1'
 }
 
@@ -13,5 +14,6 @@ export type Theme = {
   corSecundaria: string
   corDeFundo: string
   corDeFundoBotao: string
+  corDeFundoBotaoHover: string
   corDaBorda: string
 }
